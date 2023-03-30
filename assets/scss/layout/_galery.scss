@@ -1,0 +1,94 @@
+.sectionimg {
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0;
+      height: 500px;
+  
+      .pdiv {
+        background-color: rgba(255, 68, 0, 0);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: rgba(255, 255, 255, 0);
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        &:hover {
+          color: white;
+          background-color: rgba(255, 68, 0, 0.484);
+        }
+      }
+  
+      div {
+        display: block;
+      }
+  
+      .divi1 {
+  
+        
+        background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/thumbnails/1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+  
+  
+      }
+  
+      .divi2 {
+        background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/thumbnails/2.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+  
+      }
+  
+      .divi3 {
+        background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/thumbnails/3.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+  
+      }
+  
+      .divi4 {
+        background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/thumbnails/4.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+  
+      }
+  
+      .divi5 {
+        background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/thumbnails/5.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+  
+      }
+  
+      .divi6 {
+        background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/thumbnails/6.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+  
+      }
+  
+  
+    }
+
+    @media screen and (max-width:912px) {
+        div{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    @media screen and (max-width:512px){
+        div{
+            grid-template-columns: 1fr;
+        }
+    }
+
+  }

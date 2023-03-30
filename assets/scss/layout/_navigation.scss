@@ -1,0 +1,52 @@
+nav {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .hamburger{
+    display: none;
+
+  }
+
+  .divh1{
+    color: orangered;
+    cursor: pointer;
+    font-size: 30px;
+
+
+  }
+  .divb {
+    ul{
+        display: flex;
+        gap: 20px;
+        li{
+            list-style: none;
+            a{
+                color: rgba(0, 0, 0, 0.76);
+                text-decoration: none;
+                font-weight: bold;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                &:hover{
+                    color: orangered;
+                }
+            }
+        }
+    }
+
+
+
+    }
+    @media screen and (max-width:1000px) {
+        .hamburger{
+            display: block;
+            font-size: 30px;
+        }
+        .divb{
+            display: none;
+        }
+    }
+}

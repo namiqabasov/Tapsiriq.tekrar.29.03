@@ -1,0 +1,147 @@
+header {
+  padding-top: 80px;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    h2 {
+      font-size: 40px;
+      text-align: center;
+      width: 70%;
+    }
+    .ptag {
+      border: 2px solid rgb(255, 102, 0);
+      width: 10%;
+    }
+    .ptag1 {
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: rgba(255, 68, 0, 0.664);
+      padding: 20px 40px;
+      border: 0;
+      border-radius: 45px;
+      font-weight: bold;
+      margin-top: 10px;
+
+      &:hover {
+        background-color: orangered;
+      }
+    }
+  }
+}
+
+.header2 {
+  background-image: none;
+  background-color: orangered;
+  height: 440px;
+  .ptag {
+    border: 2px solid white;
+  }
+  h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+  a {
+    color: rgba(0, 0, 0, 0.822);
+    background-color: white;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.637);
+    }
+  }
+}
+
+.header3{
+  margin: 0;
+  background-image: none;
+  background-color: black;
+  width: 100%;
+  height: 250px;
+  h2{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  a{
+    color: black;
+    background-color: white;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .header1{
+    height: 350px;
+    h2{
+      font-size: 30px;
+
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .header2{
+    h2{
+      font-size: 20px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .header3{
+    h2{
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width:568px){
+
+  header{
+    a{
+      font-size: 10px;
+    }
+  }
+
+  .header1{
+    h2{
+      font-size: 20px;
+
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+  .header2{
+    h2{
+      font-size: 10px;
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+  .header3{
+    height: 400px;
+    h2{
+      font-size: 10px;
+    }
+  }
+}
+
