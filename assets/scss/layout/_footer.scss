@@ -28,16 +28,26 @@ footer {
         padding: 12px;
         border: 3px solid #efefef;
         border-radius: 4px;
-
+        outline: none;
         resize: vertical;
-
+        transition: 0.7s;
     }
 
-    .insub {
+    input:focus,
+    textarea:focus {
+        border-color: rgba(255, 68, 0, 0.567);
+        box-shadow: 0 0 8px orangered;
+        
+    }
+    
+    
+    .insub,.insub:focus {
         border-radius: 30px;
         background-color: orangered;
         color: white;
         opacity: 0.7;
+        box-shadow: none;
+        border: none;
     }
 
     div {
